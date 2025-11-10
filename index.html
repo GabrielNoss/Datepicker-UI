@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Datepicker UI</title>
+
+     <!--SEO Meta tags-->
+    <meta name="description" content="Gabriel Noss - A basic HTML, CSS Page">
+    <meta name="keywords" content="Website, SEO, HTML, Page, Frontend, Developer">
+    <meta name="author" content="Gabriel. A Noss Silva">
+    
+    <!--Open Graph (OG) Tags-->
+    <meta property="og:title" content="Gabriel Noss | Basic HTML, CSS Website">
+    <meta property="og:description" content="Gabriel Noss - Basic Website">
+    <meta property="og:type" content="website">
+</head>
+<body>
+   <div class="date-picker">
+        <div class="input-group">
+            <input type="text" placeholder="dd / mm/ yyyy" readonly name="calendar">
+            <button type="button" class="calendar-btn" title="calendar-image"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-calendar-week"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" /><path d="M16 3v4" /><path d="M8 3v4" /><path d="M4 11h16" /><path d="M7 14h.013" /><path d="M10.01 14h.005" /><path d="M13.01 14h.005" /><path d="M16.015 14h.005" /><path d="M13.015 17h.005" /><path d="M7.01 17h.005" /><path d="M10.01 17h.005" /></svg></button>
+        </div>
+        <div class="calendar">
+            <div class="calendar-header">
+                <button class="prev-month" type="button" title="previous button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M15 6l-6 6l6 6" /></svg>
+                </button>
+                <div class="month-year">December 2022</div>
+                <button class="next-month" type="button" title="next button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 6l6 6l-6 6" /></svg>
+                </button>
+            </div>
+            <!-- Días de la semana -->
+        <div class="day-week">
+            <div class="day">S</div>
+            <div class="day">M</div>
+            <div class="day">T</div>
+            <div class="day">W</div>
+            <div class="day">T</div>
+            <div class="day">F</div>
+            <div class="day">S</div>
+        </div>
+
+        <!-- Grid de días del mes -->
+        <div class="days-month">
+            <!-- Días vacíos para alinear el primer día -->
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+            <div class="day empty"></div>
+
+            <!-- Días del mes -->
+            <div class="day">1</div>
+            <div class="day">2</div>
+            <div class="day">3</div>
+            <div class="day">4</div>
+            <div class="day">5</div>
+            <div class="day">6</div>
+            <div class="day">7</div>
+            <div class="day">8</div>
+            <div class="day">9</div>
+            <div class="day">10</div>
+            <div class="day">11</div>
+            <div class="day">12</div>
+            <div class="day">13</div>
+            <div class="day">14</div>
+            <div class="day">15</div>
+            <div class="day">16</div>
+            <div class="day">17</div>
+            <div class="day">18</div>
+            <div class="day">19</div>
+            <div class="day">20</div>
+            <div class="day">21</div>
+            <div class="day">22</div>
+            <div class="day">23</div>
+            <div class="day">24</div>
+            <div class="day">25</div>
+            <div class="day">26</div>
+            <div class="day">27</div>
+            <div class="day">28</div>
+            <div class="day">29</div>
+            <div class="day">30</div>
+            <div class="day">31</div>
+        </div>
+    </div>
+         
+     </div>
+   </div>
+</body>
+</html>

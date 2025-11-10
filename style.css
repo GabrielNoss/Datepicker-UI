@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.date-picker {
+    display: grid;
+    margin: 4rem 2rem;
+    border: 1px solid #030303;
+    padding: .3rem;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-group input {
+    padding: .5rem;
+}
+.input-group button {
+    cursor: pointer;
+}
+.calendar .calendar-header {
+    display: flex;
+    padding: 1rem;
+}
+.calendar .calendar-header button {
+    width: 1.5rem;
+    background-color: transparent;
+    border: none;
+}
+
+/*Dias de la semana*/
+.day-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+
+}
+.day-week .day {
+    padding: 15px 0;
+    
+}
+.days-month {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+    border: 1px solid #f1fffa;
+
+}
+.days-month .day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #194d5a;
+}
+.days-month .day:hover {
+    background: #48f1b1;
+    transform: scale(1.05);
+}
